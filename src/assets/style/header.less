@@ -1,0 +1,70 @@
+
+
+.header_line_top{
+    background-color: #272727;
+    padding: 10px 15px;
+}
+.header_line_inner{
+    line-height: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 330px;
+        height: 130px;
+    }
+
+    .baner_top{
+        line-height: 0;
+        .baner_top_link{
+            width: 800px;
+            height: 100px;
+            background: url(../img/baner/1589325449237.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+.menu{
+    border-top: 2px solid #272727;
+    border-bottom: 2px solid #272727;
+
+    .menu_list{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .menu_list_item:not(:last-child){
+        margin-right: 30px;
+    }
+    .menu_list_link{
+        padding: 10px 20px;
+        font-weight: 700;
+        transition-property: background-color, color;
+        transition-duration: .3s;
+        border-radius: 3px;
+
+        &:hover{
+            background-color: #272727;
+            color: #ffffff;
+        }
+    }
+}
+
+.toogle_theme{
+    line-height: 0;
+    margin-right: 40px;
+}
+
+.time_block{
+    color: #ffffff;
+}
